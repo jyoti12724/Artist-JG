@@ -1,7 +1,7 @@
 import Foundation
 
 final class AppCoordinator: ObservableObject {
-    @Published var route: AppRoute = .home(nil)
+    @Published var route: AppRoute = .login
 
     func showLogin() {
         route = .login
